@@ -24,7 +24,7 @@ const BULLET_SPEED = 20;
 const hitRadius = 20;
 
 app.get('/', function(req, res){
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 app.use(express.static('public'));
